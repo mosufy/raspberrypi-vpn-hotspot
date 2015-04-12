@@ -1,12 +1,13 @@
 #!/bin/sh -ex
 #title				:Rpi_Wireless_VPN_Setup/install.sh
 #description		:This script will make your Rpi a Wireless VPN Hotspot
+#url				:https://github.com/mosufy/raspberrypi-vpn-hotspot
 #author 			:mosufy
 #date 				:20150412
 #version			:0.1.0
 #usage				:sudo bash install.sh
 
-# Setup Wireless OpenVPN Access Point
+# Raspberry Pi OpenVPN Wireless Access Point Installation Script
 #
 # Make this Raspberry Pi as a Wireless Router to
 # allow other devices within the same network to
