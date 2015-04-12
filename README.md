@@ -1,4 +1,4 @@
-# Raspberry Pi OpenVPN Wireless Access Point
+# Raspberry Pi OpenVPN Wireless HotSpot
 Allows other devices (mobile, tv, laptop) within your home network to connect to this Raspberry Pi and enjoy secured internet access over VPN.
 
 ## Pre-requisites
