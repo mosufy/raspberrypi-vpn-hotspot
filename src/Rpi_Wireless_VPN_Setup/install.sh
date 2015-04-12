@@ -36,12 +36,12 @@
 # - https://support.goldenfrog.com/hc/en-us/articles/204088603-OpenVPN
 #
 
-if [ ! -f /tmp/Rpi_Wireless_VPN_Setup/config.conf ]; then
+if [ ! -f /tmp/raspberrypi-vpn-hotspot-master/src/Rpi_Wireless_VPN_Setup/config.conf ]; then
 	echo "No config file available: Create config.conf from config_sample.conf"
 	exit 1
 fi
 
-. /tmp/Rpi_Wireless_VPN_Setup/config.conf
+. /tmp/raspberrypi-vpn-hotspot-master/src/Rpi_Wireless_VPN_Setup/config.conf
 echo "Loaded installation config file"
 
 if [ ${BACKUP} = true ]; then
@@ -153,7 +153,7 @@ echo "Updated /etc/default/hostapd to load correct file"
 echo "Downloading custom hostapd driver package for RTL8188CUS 802.11n WLAN Adapter"
 
 # Download the archive
-cd /tmp/Rpi_Wireless_VPN_Setup
+cd /tmp/raspberrypi-vpn-hotspot-master/src/Rpi_Wireless_VPN_Setup/Rpi_Wireless_VPN_Setup
 wget "https://github.com/HoraceWeebler/rtl8188cus/archive/master.zip"
 
 # Extract the archive
